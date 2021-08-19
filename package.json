@@ -1,0 +1,22 @@
+{
+  "name": "hais-rodolphe",
+  "version": "1.0.0",
+  "description": "Cv hais rodolphe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"public \"sass \" tutorialstyles.scss",
+    "css-build": "node-sass --omit-source-map-url sass/tutorialstyles.scss css/tutorialstyles.css",
+    "css-watch": "npm run css-built --watch",
+    "bulma-watch": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "master"
+  },
+  "author": "RodolpheHais",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^6.0.1"
+  }
+}

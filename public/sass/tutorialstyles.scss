@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+@import url('HYPERLINK "https://fonts.googleapis.com/css?family=Poppins%7CSource+Sans+Pro&display=swap" \https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro&display=swap');
+// Personnalisation des couleurs.
+$pink: #ff3562;
+$purple: #693668;
+$maroon: #a74482;
+$darck-blue: #1b1b3a;
+// Importe bulma et application nos changement.
+@import "../node_modules/bulma/bulma.sass";
+//Personnalisation des polices
+$poppins: "poppins", sans-serif;
+$source-sans: "Source Sans Pro", sans-serif;
+//Remplace des variables.
+$title-family: $poppins;
+$family-primary: $source-sans;
+$primary: $pink;
+$info: $purple;
+// Padding plus importante et ombre portée plus tendance.
+$box-padding: 1.5rem;
+$box-shadow: 0 5px 10px #582d5733, 0 15px 10px #ff346200;
+@import "/public/sass/tutorialstyles.scss";
